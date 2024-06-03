@@ -11,5 +11,5 @@ while True:
 
 issue = input("Enter the patient problem: ")
 
-patient_data = {"name": name, "age": age, "issue": issue}
+patient_data = {"Name": name, "Age": age, "Issue": issue}
 print(patient_data)
