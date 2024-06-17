@@ -1,0 +1,152 @@
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: #fff;
+    color: #000;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+html::-webkit-scrollbar {
+  width: 15px;
+}
+ 
+html::-webkit-scrollbar-track {
+  background: darkgray;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+html::-webkit-scrollbar-thumb {
+  background: #80bfff;
+  border: 3px solid #80bfff;
+}
+
+.nav-logo {
+  margin-left: 20px;
+  margin-top: 5%;
+}
+
+.main-head {
+  text-decoration: none;
+}
+
+.myFl {
+  margin-left: 50%;
+  margin-top: -13%;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  height: 15%;
+  width: 23%;
+  background-color: #26BAF7;
+  color: black;
+  border: solid #26BAF7;
+}
+
+.crFl {
+  margin-left: 75%;
+  margin-top: -6.7%;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  height: 15%;
+  width: 20%;
+  background-color: white;
+  color: black;
+  border: solid #26BAF7;
+}
+
+.nav-link a{
+  color: black;
+  text-decoration: none;
+}
+
+.style-xi {
+  margin-left: 23px;
+  background-color: #80bfff;
+  border-radius: 12px;
+  width: 2%;
+  height: 80vh;
+}
+
+h3 {
+  margin-left: 60px;
+  margin-top: -170%;
+  color: #33A1FD;
+  font-size: 90px;
+}
+
+
+.spanx1::before {
+  content: "Urgency";
+  color: #FB4B4E;
+  font-weight: bold;
+  animation: changeText 10s infinite;
+}
+
+@keyframes changeText {
+    0% { 
+      content: "urgency"; 
+      
+    }
+    
+    50% { 
+      content: "emergencies"; 
+      
+    }
+    
+    75% { 
+      content: "crises"; 
+      
+    }
+    
+    100% {
+      content: "critical situations";
+      }
+}
+
+.body-xii {
+  margin-left: 70px;
+}
+
+h2 {
+  color: #33A1FD;
+  margin-left: 60px;
+  font-size: 90px;
+}
+
+.main-foot {
+  height: 30vh;
+  background-color: #cfe3ff;
+  color: #415A77;
+}
+
+h5 {
+  font-size: 70px;
+  margin-left: 60px;
+}
+
+.foot-link a{
+  margin-left: 60px;
+  font-size: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+.git-img {
+  margin-left: 70%;
+  margin-top: -45.2%;
+}
+
+.x-img {
+  margin-left: 83%;
+  margin-top: -8.5%
+}
+
+p1 {
+  font-size: 30px;
+  margin-left: 5%;
+}
