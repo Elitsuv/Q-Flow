@@ -34,10 +34,10 @@ html::-webkit-scrollbar-thumb {
 .myFl {
   margin-left: 50%;
   margin-top: -13%;
-  border-radius: 12px;
+  border-radius: 9px;
   text-align: center;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 18px;
   height: 15%;
   width: 23%;
   background-color: #26BAF7;
@@ -47,11 +47,11 @@ html::-webkit-scrollbar-thumb {
 
 .crFl {
   margin-left: 75%;
-  margin-top: -6.7%;
-  border-radius: 12px;
+  margin-top: -7%;
+  border-radius: 9px;
   text-align: center;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 18px;
   height: 15%;
   width: 20%;
   background-color: white;
@@ -69,19 +69,19 @@ html::-webkit-scrollbar-thumb {
   background-color: #80bfff;
   border-radius: 12px;
   width: 2%;
-  height: 80vh;
+  height: 90vh;
 }
 
 h3 {
   margin-left: 60px;
-  margin-top: -170%;
+  margin-top: -173%;
   color: #33A1FD;
-  font-size: 90px;
+  font-size: 32px;
 }
 
 
 .spanx1::before {
-  content: "Urgency";
+  content: "urgency.";
   color: #FB4B4E;
   font-weight: bold;
   animation: changeText 10s infinite;
@@ -89,22 +89,22 @@ h3 {
 
 @keyframes changeText {
     0% { 
-      content: "urgency"; 
+      content: "urgency."; 
       
     }
     
     50% { 
-      content: "emergencies"; 
+      content: "emergencies."; 
       
     }
     
     75% { 
-      content: "crises"; 
+      content: "crises."; 
       
     }
     
     100% {
-      content: "critical situations";
+      content: "critical situations.";
       }
 }
 
@@ -115,38 +115,38 @@ h3 {
 h2 {
   color: #33A1FD;
   margin-left: 60px;
-  font-size: 90px;
+  font-size: 30px;
 }
 
 .main-foot {
-  height: 30vh;
+  height: 40vh;
   background-color: #cfe3ff;
   color: #415A77;
 }
 
 h5 {
-  font-size: 70px;
-  margin-left: 60px;
+  font-size: 25px;
+  margin-left: 50px;
 }
 
 .foot-link a{
-  margin-left: 60px;
-  font-size: 50px;
+  margin-left: 50px;
+  font-size: 20px;
   color: black;
   text-decoration: none;
 }
 
 .git-img {
   margin-left: 70%;
-  margin-top: -45.2%;
+  margin-top: -62.2%;
 }
 
 .x-img {
   margin-left: 83%;
-  margin-top: -8.5%
+  margin-top: -10.5%
 }
 
 p1 {
-  font-size: 30px;
+  font-size: 10px;
   margin-left: 5%;
 }
