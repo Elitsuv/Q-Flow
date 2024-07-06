@@ -192,7 +192,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .myFl {
-  margin-left: 50%;
+  margin-left: 60%;
   margin-top: -13%;
   border-radius: 9px;
   text-align: center;
@@ -206,7 +206,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .crFl {
-  margin-left: 75%;
+  margin-left: 85%;
   margin-top: -7%;
   border-radius: 9px;
   text-align: center;
